@@ -6,11 +6,17 @@ namespace StaticClassAttributes
     {
         static void Main(string[] args)
         {
-            Song holiday = new Song("Holiday", "Green Day", 200); //every time is I say, new Song, this is me calling that constructor on line 20-25
+            Song holiday = new Song("Holiday", "Green Day", 200); //every time  I say, new Song, this is me calling that constructor on line 20-25
             Console.WriteLine(Song.songCount); 
             Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
             Console.WriteLine(Song.songCount);
             Console.WriteLine(kashmir.getSongCount());
+
+            //example:
+
+            Song christmas = new Song("merry go around", "Lin Lee", 120);
+            Console.WriteLine(Song.songCount);
+
 
 
             //Console.WriteLine(holiday.artist); 
