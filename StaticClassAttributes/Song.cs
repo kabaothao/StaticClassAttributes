@@ -30,6 +30,10 @@ namespace StaticClassAttributes
 
         }
 
+        public int getSongCount()
+        {
+            return Song.songCount;
+        }
 
 
 
