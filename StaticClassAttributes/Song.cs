@@ -46,7 +46,7 @@ namespace StaticClassAttributes
  What is Static Attribute?
 Static attribute is basically a special type of attribute in class which is shared by all of the obkects and all the instances of the class. So a
 static attribute is technically an attribute that is contained on the class itself, instead of on the individual objects of that class. And I'm going to sort of explain to you how
-this works. Over hee in my program, I actually created a class, and its called song. And this class basically just models a song in our program.
+this works. Over here in my program, I actually created a class, and its called song. And this class basically just models a song in our program.
 So its kind of like a blueprint.
 
 So static attribute is technically an attribute that is contained on the class itself, instead of on the individual objects of that class. 
@@ -57,4 +57,5 @@ So holiday.title and cashmere.title, those are different values, but a static at
 
 
 anytime a song object gets created, this method gets called its a guarantee. 
+
 */

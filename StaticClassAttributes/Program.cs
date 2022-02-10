@@ -41,5 +41,5 @@ You can create as many as you want for static attribute. They're really useful.
 Overall there are 2 ways to create static attributes:
 1. You can just create a static attribute and access it using like a song.songcount
 OR
-2. you cuold create a getter mthod like get getSongCount(), and then the individual objects could access that. 
+2. you could create a getter method like get getSongCount(), and then the individual objects could access that. 
  */
