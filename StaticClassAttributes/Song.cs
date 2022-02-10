@@ -29,7 +29,7 @@ namespace StaticClassAttributes
 
 
         }
-
+        //you can create a method 
         public int getSongCount()
         {
             return Song.songCount;
